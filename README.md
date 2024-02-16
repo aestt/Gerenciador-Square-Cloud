@@ -18,7 +18,7 @@ Em primeiro lugar, verifique se você tem:
 
 ### Configurando o Gerenciador
 
-1. Abra o arquivo `.app.json`, localizado na pasta `config`
+1. Abra o arquivo `app.json`, localizado na pasta `config`
 2. Insira o `TOKEN` de acordo com seu bot de Discord
 3. Insira a `API_SQUARE` de acordo com sua api da square cloud
 
