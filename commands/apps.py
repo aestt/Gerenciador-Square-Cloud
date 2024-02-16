@@ -33,6 +33,9 @@ class Apps(commands.Cog):
         elif id == "⚠️ API não encontrada":
             await interaction.send(f"⚠️ **|** {interaction.user.mention} Não consegui localizar a **API**! Altere ela e tente novamente.", ephemeral=True, delete_after=3)
             return
+        elif id == "Não encontrei nenhum bot hospedado":
+            await interaction.send(f"❌ **|** {interaction.user.mention} Não encontrei nenhum bot hospedado.", ephemeral=True, delete_after=3)
+            return
 
         id_selecionado = id.split(" -")[1] # O id retorna assim: Nome do Bot - ID, para verificar as informações na api, é necessário SOMENTE O ID.
                                             # Sendo assim, ele retira o nome e fica somente com o ID
@@ -284,6 +287,10 @@ class Apps(commands.Cog):
 
             for apps in appsSquare:
                 choices.append(f"{apps.tag} - {apps.id}")
+
+            for choice in choices:
+                if choice == "":
+                    choices.append("Não encontrei nenhum bot hospedado")
         except: # Se o código de algum erro, ele vai retornar que a api não foi encontrada
             choices.append("⚠️ API não encontrada")
 
