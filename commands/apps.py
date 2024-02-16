@@ -288,9 +288,8 @@ class Apps(commands.Cog):
             for apps in appsSquare:
                 choices.append(f"{apps.tag} - {apps.id}")
 
-            for choice in choices:
-                if choice == "":
-                    choices.append("Não encontrei nenhum bot hospedado")
+            if choices == []:
+                choices.append("Não encontrei nenhum bot hospedado")
         except: # Se o código de algum erro, ele vai retornar que a api não foi encontrada
             choices.append("⚠️ API não encontrada")
 
