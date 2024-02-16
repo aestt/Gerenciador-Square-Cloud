@@ -22,7 +22,7 @@ Em primeiro lugar, verifique se você tem:
 2. Insira o `TOKEN` de acordo com seu bot de Discord
 3. Insira a `API_SQUARE` de acordo com sua api da square cloud
 
-## 💙 Hospedando sua instância do Square Team Bot
+## 💙 Hospedando sua instância
 
 ### Hospedando o bot em sua máquina
 
