@@ -1,5 +1,3 @@
-# <img src='https://github.com/josejooj/square-team-bot/assets/76636096/4ca01ab0-4523-4f5a-9f50-5242400845da' style="width: 22px; margin-right: 10px;"> Square Team Bot
-
 Gerenciador Square Cloud serve para você gerenciar suas aplicações através de comandos, pelo próprio Discord.<br><br>
 Ele usa a biblioteca de python feita pela própria Square Cloud para fazer as requisições.
 
