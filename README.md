@@ -14,7 +14,7 @@ Em primeiro lugar, verifique se você tem:
 
 1. O Token do seu bot Discord
 2. Sua API da Square Cloud
-3. E os arquivos do Gerenciador ([download](https://github.com/aestt/Gerenciador-Square-Cloud)) baixados 
+3. E os arquivos do ([Gerenciador](https://github.com/aestt/Gerenciador-Square-Cloud)) baixados 
 
 ### Configurando o Gerenciador
 
