@@ -7,3 +7,4 @@ pip install squarecloud-api
 
 config - app.json 
 
+## NÃO DELETE NENHUM ARQUIVO E/OU PASTA!
