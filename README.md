@@ -26,7 +26,7 @@ Em primeiro lugar, verifique se você tem:
 
 ### Hospedando o bot em sua máquina
 
-1. Instale o [python](https://www.python.org) 
+1. Instale o [Python](https://www.python.org) 
 2. Abra a pasta do Gerenciador (já extraída) no vs code
 3. Abra o terminal e execute:
 - pip install nextcord
