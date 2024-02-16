@@ -42,7 +42,6 @@ class Apps(commands.Cog):
         id_selecionado = id_selecionado.replace(" ", "") # Tira todos os espaços
 
         nome_selecionado = id.split("- ")[0]
-        nome_selecionado = nome_selecionado.replace(" ", "") # Faz a mesma coisa que o de cima, mas pega o NOME
         
         button1 = nextcord.ui.Button(label="Ligar", style=nextcord.ButtonStyle.green) # Cria um botão com a cor verde
         button2 = nextcord.ui.Button(label="Desligar", style=nextcord.ButtonStyle.red) # Cria um botão com a cor Vermelha
