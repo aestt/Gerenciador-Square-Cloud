@@ -5,6 +5,6 @@
 
 ### Depois que baixar, é necessário alterar a váriavel TOKEN e API_SQUARE no arquivo json:
 
-config - app.json 
+- config - app.json 
 
 ## NÃO DELETE NENHUM ARQUIVO E/OU PASTA!
