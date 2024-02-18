@@ -36,8 +36,10 @@ Em primeiro lugar, verifique se você tem:
 
 ### Hospedando na Square Cloud
 
-1. Acesso o menu inicial da Square [Square Cloud Dashboard](https://squarecloud.app/dashboard) e insira o .ZIP do Gerenciador lá
-
+1. Baixe todos os arquivos e compacte eles para .ZIP
+2. Acesse o menu inicial da Square ([Square Cloud Dashboard](https://squarecloud.app/dashboard))
+3. Clique em adicionar novo ou add new e insira o .ZIP
+   
 ## ➕ Informações adicionais
 
 > 🏁 **`Linguagem`**: Português<br>
